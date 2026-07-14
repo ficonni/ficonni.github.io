@@ -1,0 +1,82 @@
+/* Import IBM Plex Mono */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Everforest Dark (Default Contrast) Palette */
+:root {
+    --bg: #2d353b;         /* Default background */
+    --fg: #d3c6aa;         /* Foreground text */
+    --red: #e67e80;        /* Accent/Highlight red */
+    --orange: #e69875;     /* Accent orange */
+    --green: #a7c080;      /* Success/Hobby green */
+    --aqua: #7fbbb3;       /* Link/Interactive aqua */
+    --bg-dim: #232a2e;     /* Darker accent background */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Image styling */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px auto;
+    border: 2px solid var(--bg-dim);
+}
+
+/* Navigation List */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 25px 0;
+}
+
+/* Links */
+nav a {
+    color: var(--aqua);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--green);
+    background-color: var(--bg-dim);
+}
+
+/* Responsive adjustments for mobile touch targets */
+@media (max-width: 480px) {
+    body {
+        padding: 20px 15px;
+    }
+    nav a {
+        font-size: 1.25rem;
+        width: 100%;
+    }
+}

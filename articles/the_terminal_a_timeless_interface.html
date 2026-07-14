@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+
+
+<head>
+
+
+<title>Ficonni's website</title>
+<link rel='stylesheet' type='text/css' href="../style.css">
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+    <body class="home">
+
+
+
+<h1> The Terminal : a timeless interface </h1>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<nav>
+  <h3>Table of Contents</h3>
+  <br>
+  <ul>
+    <li><a href="#section1">Introduction</a></li>
+    <li><a href="#section2">A very brief history of the Command Line Interface (CLI) and Graphical User Interface (GUI)</a></li>
+    <li><a href="#section3">The merits of using the terminal as opposed to a GUI</a></li>
+    <li><a href="#section4">The downsides of terminal programs</a></li>
+    <li><a href="#section5">In conclusion</a></li>
+  </ul>
+</nav>
+
+<h2 id="section1">Introduction</h2>
+<br>
+<p>Contrary to what the layman might think, the terminal is not only relevant in the 21st century, it is, for a lot of operations, <i>still</i> the most 
+pragmatic and efficient way to use the computer.</p>
+
+
+<p><b> UnixDigest</b> provided a excellent discussion on what differenciates the terminal, the console and the shell, which 
+you can find <a href="https://unixdigest.com/articles/the-terminal-the-console-and-the-shell-what-are-they.html">here.</a>
+(there's also plenty of images relevant to this topic).
+He is by far the greater authority on this matter because his whole life and career has been in IT : what you will see here is 
+just a end-user (whom laymen would call a "power user") explaining his own reasons for using the terminal for most 
+of his needs. I really do recommend following his website, as it was a major inspiration for the layout and look 
+of my own website.</p>
+
+<p>This article focuses on the practicality and reasons for why it should be at least considered by anyone willing to 
+optimize their usage of their PC - it is not an exhaustive history or any technical discussion on <i>how</i> the technologies 
+in question work. For the purpuse of keeping this article brief, we will only focus on the modern usage of the terminal after a brief 
+historical introduction, while the technical details and and full history will be provided via links.
+
+
+<br>
+<br>
+<h2 id="section2">A very brief history of the Command Line Interface (CLI) and Graphical User Interface (GUI) </h2>
+<br>
+<p>Up until the invention of the <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">Graphical User Interface (GUI)<ia>,
+manually punching in or typing commands was the default. In the very beginning, there was the <a href="https://en.wikipedia.org/wiki/Teleprinter">Teleprinter</a>,
+better known as a Teletypewriter or simply a TTY. It was, for all intents and purpuses, a sort of typewriter-like maschine (at least on the outside) which 
+used the keyboard for inputting commands to a computer.</p>
+
+<p> This method of inputting commands (outside of using a <a href="https://en.wikipedia.org/wiki/Punched_card">Punched card</a> until the 1960s which preceeded it) was the default until the 
+    early to mid 1990s, when the Windows operating system started dominating the PC industry. Between these two points, from the Introduction of the computer 
+    and using Punched cards, to using a teletypewriter, computers went from being <a href="https://en.wikipedia.org/wiki/Mainframe_computer">Mainframes</a> 
+    (huge computers that would demand a large room and often dozens of personel using them, famously dominated by <a href="https://en.wikipedia.org/wiki/IBM">IBM</a>
+    and <a href="https://en.wikipedia.org/wiki/Digital_Equipment_Corporation">DEC</a> in approximatley 90 % and 10% ratio,respectivley) to being <a href="https://en.wikipedia.org/wiki/Minicomputer">Minicomputers</a>
+    (something in size which would be comparable to a large refrigerator) to <a href="https://en.wikipedia.org/wiki/Microcomputer">Microcomputers</a> which were 
+    the dominating force starting in the 1970s until the 1980s. </p>
+
+    <p>
+    Then came the rise of the <a href ="https://en.wikipedia.org/wiki/Personal_computer">Personal computers</a> in 1977,
+    such as the <a href="https://en.wikipedia.org/wiki/Apple_II">Apple ][</a>, <a href="https://en.wikipedia.org/wiki/TRS-80">TRS-80</a> and
+    <a href="https://en.wikipedia.org/wiki/Commodore_PET">Commodore PET</a>.
+    There were others in this time  as well of course, but these big three started  the PC revolution and were all still using manual input in a console despite 
+    the <a href="https://en.wikipedia.org/wiki/Xerox_Alto">Xerox Alto</a> pioneering the GUI in 1973.
+    The explosion of popularity of the three afformentioned computers and their ecosystems, as well as the 1981 introduction  of <a href?"https://en.wikipedia.org/wiki/IBM_Personal_Computer">IBM's personal computer</a> (hence 
+    the term PC) which stormed the industry and prompted a <a href="https://en.wikipedia.org/wiki/IBM_PC_compatible">cloning wa/</a> didn't stop the console from still being the default user interface in Operating Systems 
+such as <a href="https://en.wikipedia.org/wiki/OS/2">OS/2 </a>, <a href="https://en.wikipedia.org/wiki/CP/M"CP/M>CP/M</a>, <a href="https://en.wikipedia.org/wiki/Unix">UNIX</a>, <a href="https://en.wikipedia.org/wiki/DOS">DOS</a> 
+and later <a href?"https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a> and <a href="https://en.wikipedia.org/wiki/Linux">(GNU/)Linux</a>. The only thing that changed was that the user was typing commands two
+<i> his own computer</i>, not a maschine shared by multiple people. Users had the choice of typing commands or using a <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">Text-based user interface</a>.
+
+</p>
+
+<p> Then came the rise of the GUI, most notably the <a href="https://en.wikipedia.org/wiki/Apple_Lisa">Apple's GUI on the Lisa</a> 
+and <a href="https://en.wikipedia.org/wiki/Macintosh_128K">The original Macintosh</a> (better known as Macintosh 128K) in 1983 and 1984, respectivley,
+<a href="https://en.wikipedia.org/wiki/X_Window_System">X window system</a> also in 1984, 
+<a href="https://en.wikipedia.org/wiki/Windows_1.0">Windows 1.0</a> in 1985, the <a href="https://en.wikipedia.org/wiki/Presentation_Manager">Presentation Manager</a> for OS/2 in 1987.
+ The manual input via commands was quickly relegated to the terminal emulator, not the console, though in most cases the GUI was optional. 
+ Only later with the rise of <a href="https://en.wikipedia.org/wiki/Windows_95">Windows 95</a> did the user get the GUI out of the box instead of having to launch it from the shell (the Lisa and Macintosh were exceptions).
+ With the  dominating popularity and success of Windows 95 and it's  descendants, the manual input of commands was left in the eyes of many as a legacy feature, not something the common man ever needed to touch.
+
+</p>
+
+
+<p> However, the <a href="https://en.wikipedia.org/wiki/Terminal_emulator">Terminal emulator</a> lives on to this day, and it's popularity, while niche outsdie of certain use cases such 
+as running scripts, is alive and healthy. There are more than enough <a href="https://en.wikipedia.org/wiki/Text-based_user_interface">Text-based user interfaces</a> being developed to this day,
+and modern utilities that replace the <a href="https://en.wikipedia.org/wiki/GNU_Core_Utilities">GNU</a> , UNIX, or other core utilities which further expan the functionality or ease of use, 
+such as adding color output to previously monochrome output, or being written in such a way to be faster or more secure. In other words, while the world of the (virtal) terminal is niche compared 
+to the mainstream, if one dives deep, they will find programs for almost everything, from the afformentioned core utilities replacements, to browsers, music players, 
+<a href="https://en.wikipedia.org/wiki/IRC">IRC</a> chat clients, <a href="https://en.wikipedia.org/wiki/RSS">RSS</a> feed readers, file managers, torrent clients, and more.
+
+
+
+
+<br>
+
+<br>
+<h2 id="section3">The merits of using the terminal as opposed to a GUI</h2>
+<br>
+<p><i>Note that instead of terminal emulator, I use the term terminal for simplicity's sake. Due to the nature of modern computing, while living in the command line without any graphics is very much possible, it's too limiting for most people, as the 
+access to the modern Web requiures graphics and simple HTML parsers and browsers such as Lynx, w3m and similar programs are not practical. A good compromise is a simple Window Manager coupled with terminal applications.</i><p>
+
+<br>
+<h3>The upsides can be listed as follows :</h3>
+<br>
+
+
+<ol>
+<li>
+<p><b>The terminal offers an environment that is as minimal and distraction-free as possible</b></p>
+
+<p> Plain text (and occasional ASCII if needed) is as about as minimal as computing can get without activley handicapping the user.
+
+This means that dynamic elements such as animations are almost totally thrown awwy, and what is left is the actual <i>content</i>, not the <i>form</i>. Even though someone who is used to a GUI all their life would 
+consider their environment minimal (such as using a minimal wallpaper or just a solid color for one), the GUI of a Operating System still relies on the abstractness of the icons to present meaning to the user 
+instead of words. Getting rid of animations helps, but the cognitive load will alawys be bigger in the case of a GUI, and even a TUI. What is left is a situation where subconciously we have to process the abstract 
+meaning encoded in the icons isntead of the semantic meaning of words, and when one gets used to the terminal, he finds it much less distracting. Laymen who see the terminal for the first time often feel overwhelmed 
+because of the <i>lack</i> of elements on the screen, not because of it. This is the result of learning and getting used to the number of elements creating the perceptive field shown on the screen. Contrary, those 
+who would have used the shell or terminal for long periods of time might find a GUI endlessly exhausting in overwhelming (such as the case with myself).
+I suspect <a href="https://en.wikipedia.org/wiki/Extraversion_and_introversion">Introversion</a> 
+and it's effect on stimulation-seeking to be a notable factor here, as the <a href="https://en.wikipedia.org/wiki/Reticular_formation#Ascending_reticular_activating_system">Reticular formation</a> has a crucial 
+role in arousal levels.
+
+</p>
+<p>
+
+The GUI was designed to help bridge the abstract nature of computing so that it can be used by the tech-illiterate, and in this regard, it did indeed succeed. However, we are not going to the other extreme and activley 
+hiding error messages from users by telling them "something's wrong", perhaps followed by a vague code instead of giving the full output somewhere on screen such as the case of Gemini's web-based interface,
+or just telling them we're "Getting their PC ready" when installing Windows. WHile these do indeed help the tech-illiterate by not overwhelming them, they also activley handicap their ceeling because the goal 
+of most people is to arrive from point A (booting into the system) to point B (finishing a report in Microsoft Word). It is natural for most people to view this "excess" information as noise on their way to 
+do their job, however, there's two main issues with this :
+<ol>
+  <li> <p><b>Hiding error messages increases frustration</b></o>
+    <p> This is the result of the fact that the source of the obsticle now appears unknown, which immediatley increases frustration. We naturally get more frustrated if the reason for why we can't reach something seems arbitrary, which in case 
+    of hiding error messages, showing just an error code without explenation  or showing loading cercles instead of direct output. 
+
+  <p>With a CLI tool, this is usually avoided entierley. The errors are printed and the user is expected to do their work in understanding them (or these days, ask a LLM for help).</p></li>
+
+
+
+<li> <p><b>Overcoming obsticles and dealing with frustration by problem-solving increases the understanding of how a given topic works. GUIs often discourage this.</b></p>
+
+<p> This is another universal principle, and the push for abstractness and "ease of use" just ends up handicapping the user in the long run, as mentioned previously. The reason why older computer users are so much better 
+at troubleshooting or finding their way through problem-solving is the natural result of conteless interactions between the user and the computer, in which there was an obsticle which needed to be 
+dealt with. As computers became more mainstream, the need to make User Interfaces accessable for those uninterested in how computers worked increased, and thus, a positive feedback loop was created 
+which resulted in each computer generation become more and more illiterate as time went on. People often talk about the <a href="https://www.youtube.com/watch?v=xf41l9gHd0o&t=3s">DOS generation</a> and  great programmers,
+such as : 
+
+
+
+    <ul>
+          <tiny>
+          <li><a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Brian_Kernighan">Brian Kernighan</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Richard_Stallman">Richard Stallman</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Eric_S._Raymond">Eric S. Raymond</a></li>
+          <li><a href=https://en.wikipedia.org/wiki/John_Carmack>John Carmack</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/John_Romero">John Romero</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Chris_Sawyer">Chris Sawyer</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Sid_Meier">Sid Meier</a></li>
+          </tiny>
+          </ul>
+
+<p>There's of course, many others. This is just an example.</p>
+
+
+<p><b> What do all these men have in common?</b>
+
+
+<p> All of them had to overcome technical obsticles in order to achieve their goals. In the process, they grew in their understanding of the fundementals of programming and the limits of both hardware and software.</p>
+<p> Today we have the luxury of well optimized compilers, the seemingly endeless abundance of informations and tutorials on the Internet, computers orders of magnitude more powerfull than the top of the line maschines that were 
+avalable to million dollar businessess and ever goverments, and yet, the software is as unoptimized as ever (a great example is the Video Game industry which deserves to <a href ="https://www.youtube.com/watch?v=r2_9tKih1GM&t=2scrash">crash</a>),
+treats the user in a condescending manner ("Hi, we're getting your computer ready for you"), gives arbitrary or non-existend feedback about what's behind the curtain (and wishes the user never knows or understands what's beneath), 
+and takes comical ammounts of resources (for example, the idiocy of <a href="https://www.windowslatest.com/2026/03/21/microsoft-confirms-windows-11-start-menu-performance-boost-shift-to-winui-from-web-based-components/">programming the Start button in React</a>).
+This conveniently brings us to the next reason the terminal can be considered superior . </p>
+</p>
+</ol>
+
+
+<br>
+
+<li><b> The performance toll of terminal programs is trivial </b>
+
+<br>
+
+<p> It's hard to imagine a single terminal program to take more than a couple dozen megabytes of RAM, except maybe Vim or EMACS when these are fully configured or we're talking about their distributions. Most of terminal programs are written in C or Rust, and thus 
+their performance impact is about as optmized as possible. Just having something graphical instead of rendering text already increase the demand on  hardware significantly, and this is one of the reasons why Linux nad BSD operating systems have a 
+well-deserved reputation of being able to run on decades old hardware. If it wasn't for the need to use the modern Internet so much, most maschines would also be simply usable for decades to come. As long as there's no heavy work involved, and if the user 
+theoretically dosen't even use the Web that much, even a computer from the early 2000s or even 1990s can be used efficiently, and we're still talking about a GUI here. Even if it's a modern maschine running a simple window manager and the user 
+prefers a terminal-centric workflow, the footprint will almost certanly take less than 800 MB of RAM, and this is with the equivalent functionality of a regular Desktop Environment. Even the large and heavy ones like KDE Plasma typically don't 
+exceed a gigabyte, yet something like Gnome takes sometimes over a 1.5 GiB just upon boot. With a simple window manager and terminal utilties for almost everything, it's easy to fall below 500 MiB, especially if the Linux distribution in question 
+also has few jobs at boot. A well opmitized Gentoo system with a simple X server can easily take less than 100 MiB of RAM, for example, which is unimaginable in today's computing world to those who are accustomed to having their Start button take 
+more RAM and CPU usage than a well optimized graphical server. </p>
+
+<br>
+
+<br>
+
+<li><b>Terminal programs coupled with a keyboard-driven Window Manager make the usage of a computer more ergonomic</b>
+
+<p> This can make the need for a mouse almost totally redundant (or in my case, actually redundant, but this depends on the needs of the user and the workflow). Since the primary way to interface with terminal and TUI 
+applications is the keyboard, combining this with a Window Manager which has integrated keyboard shortcuts (or even a full Desktop Environment which offers this functionality) allows the user to never move their dominant hand away from the keyboard, and ideally, the home 
+row itself. THe famouse H,J,K,and L keys might have been chosen because because <a href="https://catonmat.net/why-vim-uses-hjkl-as-arrow-keys">Vi's creator used a terminal without the arrow keys</a>, but the never-ending popularity of (n)Vi(m) 
+ensured that programmers and users wished to deploy these keybindings and even entire workflow to other applications, resulting in good support for a almost universal way to navigate with the keyboard most of not all of the essential 
+elements inside a TUI or cli program. Good examples include web browser such as <a href= "https://qutebrowser.org/">Qutebrowser</a>,<a href="https://w3m.sourceforge.net/"> w3m</a> and <a href="https://lynx.invisible-island.net/">lynx </a>
+(for the Chromium-based browsers and Firefox there are extensions like <a href="https://github.com/gdh1995/vimium-c">Vimium C</a>), Window Managers (almost all of them include the HJKL navigation 
+by default), RSS readers such as <a href="https://newsboat.org/">Newsboat</a>, E-mail clients such as <a href="https://aerc-mail.org/">aerc</a> and <a href="https://neomutt.org/">neomutt</a>, and so much more. For a user who intends to optimize their workflow with speed and efficiency (and be willing to develop the muscle memory for it), terminal 
+applications coupled with a keyboard-driven Window Manager are able to never move their hands from the keyboard and combine the distraction-free workflow with a ergonomic and quick way to use their preffered Operating System in a manner that 
+seems like a very logical continuation of the previous tradition of only using the command line for everything - in fact, it feels like entering a paralell universe where the mouse never took off. This is of course very  dependent on the workflow : 
+those who use graphical editing programs or video editors might have a limited use of this. Still, if we consider these use cases as not representitive of the general population, this workflow would in theory be optimal, but due to engrained 
+learning to use a GUI, it will forever be a niche way to use a computer, despite all the benifits. Ergonomic keyboards would certanly take this theoretical ceeling to the maximum possible extent. </p>
+
+
+</ol>
+
+<br>
+<h2 id="section4">The downsides of terminal programs</h2>
+<br>
+
+<p> Despite all of the above, there are valid reasons for why terminal applications aren't more mainstream or at least aren't enticing to potential users. It should be noted however, that the downsides aren't nearly close to the upsides 
+in terms of the overall impact of the user experience, once the shift in mentality has been established. Most of these are a simple result of the following :
+<br>
+
+<br>
+
+<ol>
+
+
+  <li>Terminal programs require learning commands, shortcuts, abbreviations, flags, and occasional reading of help and man pages or online documentation.</li>
+  <br>
+  <li>They are not always packaged in the Operating System's default package repository or app store, leading to the hassle of adding third-party repositories, manually downloading packages or building and compiling from source.</li>
+
+  <br>
+  <li>They might be simplified alternatives to fully functional graphical applications (such as CLI clients for steaming music) and thus lack a specific feature which is either not being acivley worked on or was never planned.</li>
+
+  <br>
+  <li>Users unfamiliar with the Vim mindset may be confused by the workflow some terminal applications expect out of the user.</li>
+
+  <br>
+  <li>Some CLI tools requiure setup before they are usable (a notorious example is <a href="https://neomutt.org/">Neomutt</li>
+
+</ol>
+
+<br>
+
+<br>
+
+<h2 id="section5">In conclusion </h2>
+
+<br>
+<br>
+Despite everything mentioned as the advantages, all of the afformentioned downsides really do make terminal-based programs unnatractive or at least unenticing prospects for many. On the other hand, many people never even know 
+about the programs in questions to begin with, and with the everlasting presence of the GUI for the last few decades, it is essentially guaranteed it will stay that way. There will always be those, however, who wish to take 
+the usage of their tools more thoughtfully, and for those willing to stick to memorization of commands, a different approach and workflow, and are willing to let their brains forge new synapses for the repetitive motions 
+of typing instead of using the mouse or trackpad, they will be rewarded with a approach to computing that strangley feels both retro and futuristic at the same time. This is why the terminal-centric way of operating the computer 
+lasted so long, and after it has been replaced, it still holds a special, if limited, place in today's computing environment. </p>
+
+
+
+
+
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<p><a href="index.html">Return to Articles page</a></p>
+<p><a href="../index.html">Return to Home page</a></p>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
