@@ -44,11 +44,11 @@ li {
 }
 /* Optional: styling links to match the palette */
 a {
-  color: var(--purple);
+  color: var(--blue);
 }
 
 a:visited {
-  color: var(--red);
+  color: var(--purple);
 }
 
 
