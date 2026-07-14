@@ -1,0 +1,21 @@
+0000000000000000000000000000000000000000 aae26564bf20282583f39394521f781838d6c1e8 Filip Milosavljević <ficonni64@gmail.com> 1783684331 +0200	commit (initial): first commit
+aae26564bf20282583f39394521f781838d6c1e8 aae26564bf20282583f39394521f781838d6c1e8 Filip Milosavljević <ficonni64@gmail.com> 1783684331 +0200	Branch: renamed refs/heads/main to refs/heads/main
+aae26564bf20282583f39394521f781838d6c1e8 099de010f0c8adc7466b250e60bebcab7071cc97 Filip Milosavljević <ficonni64@gmail.com> 1783684790 +0200	commit: Create homepage template and structure navigation menu
+099de010f0c8adc7466b250e60bebcab7071cc97 ef8b76a476fdef6065918d2267b37637856b1d0a Filip Milosavljević <ficonni64@gmail.com> 1783685090 +0200	commit: Fix stylesheet directory pathing
+ef8b76a476fdef6065918d2267b37637856b1d0a d5c8bf0deedb3098cb456e696a12e7d49ac2286c Filip Milosavljević <ficonni64@gmail.com> 1783688004 +0200	commit: Generate structured sub-pages for all site sections
+d5c8bf0deedb3098cb456e696a12e7d49ac2286c 121143fd2b99aacc6b005360a08b7cf04095feef Filip Milosavljević <ficonni64@gmail.com> 1783715220 +0200	commit: added skeleton and about page
+121143fd2b99aacc6b005360a08b7cf04095feef 6422602afd2757953b2417de38532414e3d930e5 Filip Milosavljević <ficonni64@gmail.com> 1783715866 +0200	commit: updated About pge
+6422602afd2757953b2417de38532414e3d930e5 fa7b3a6676049d13634c8dafc47990caab971bac Filip Milosavljević <ficonni64@gmail.com> 1783770403 +0200	commit: finished About page
+fa7b3a6676049d13634c8dafc47990caab971bac a8b661afb6e2d68592bf54ef58e57b96b0364441 Filip Milosavljević <ficonni64@gmail.com> 1783790313 +0200	commit: Added Kliše posts
+a8b661afb6e2d68592bf54ef58e57b96b0364441 4641ba2759b4bad30c15d18aa5ba92312f2b16f2 Filip Milosavljević <ficonni64@gmail.com> 1783800122 +0200	commit: fixed p text in CSS and added all Kaškanov works
+4641ba2759b4bad30c15d18aa5ba92312f2b16f2 5b8535470b76bb68c37472f31b3137583cd42a4e Filip Milosavljević <ficonni64@gmail.com> 1783887629 +0200	commit: added generate-rss.sh which sucks
+5b8535470b76bb68c37472f31b3137583cd42a4e 14a22e04869503d411d9d3649cad26094b890cb3 Filip Milosavljević <ficonni64@gmail.com> 1783894012 +0200	commit: template for articles and blog
+14a22e04869503d411d9d3649cad26094b890cb3 2b121b20744780f3584d37c1c393e56b2cbcb812 Filip Milosavljević <ficonni64@gmail.com> 1783941698 +0200	commit: half-finished article about the terminal
+2b121b20744780f3584d37c1c393e56b2cbcb812 0fc67ea617d8c9662a92cb8713cfe213354105d2 Filip Milosavljević <ficonni64@gmail.com> 1783955825 +0200	commit: completed article about the terminal
+0fc67ea617d8c9662a92cb8713cfe213354105d2 d1d6eff53c47c887fc5b470788868b859199c26a Filip Milosavljević <ficonni64@gmail.com> 1783957252 +0200	commit: page breaks for Kaškanov
+d1d6eff53c47c887fc5b470788868b859199c26a 0b7e08ece151aba9fb6ae598cc32845570fb5261 Filip Milosavljević <ficonni64@gmail.com> 1783957409 +0200	commit: page breaks for about
+0b7e08ece151aba9fb6ae598cc32845570fb5261 55b92f395fdbee2dca3030dd36c6d1864034799b Filip Milosavljević <ficonni64@gmail.com> 1784017535 +0200	commit: fixed academic page and added PDFs
+55b92f395fdbee2dca3030dd36c6d1864034799b a53e72463ed9e6baaa290f5b26a373f900ab2c02 Filip Milosavljević <ficonni64@gmail.com> 1784022569 +0200	commit: RSS removed until it's learned
+a53e72463ed9e6baaa290f5b26a373f900ab2c02 ea011dfc3c9d2b0294c371e2511de4cd1c6b0f96 Filip Milosavljević <ficonni64@gmail.com> 1784032773 +0200	commit: added playlists and rss notification
+ea011dfc3c9d2b0294c371e2511de4cd1c6b0f96 b3ab8b3cd9671ebbf30924fbe9fc4db5010d7a95 Filip Milosavljević <ficonni64@gmail.com> 1784035392 +0200	commit: fixed newsboat to neomutt in terminal.html
+b3ab8b3cd9671ebbf30924fbe9fc4db5010d7a95 10313350549352ca795d98d03d42b2a4c44cf791 Filip Milosavljević <ficonni64@gmail.com> 1784036719 +0200	commit: fixed newsboat to neomutt in terminal.html
