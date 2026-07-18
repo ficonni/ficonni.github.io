@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+
+
+<head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ficonni's website</title>
+<link rel='stylesheet' type='text/css' href="../style.css">
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+    <body class="home">
+
+
+
+<h1> Technical reasons to use Gentoo </h1>
+<br>
+<p> <i>Note that I have left the Linux part of Gentoo left out on purpose because it <a href="https://wiki.gentoo.org/wiki/Project:Hurd">supports GNU HURD</a> as well, giving even more choice to users. </i> </p>
+<br>
+
+<p> <a href="https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/About">Gentoo</a> can be viewed as representing the apex of what the <a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distribution</a>
+model can offer without turning into a venture by the user to create <a href="https://www.linuxfromscratch.org/">their own </a> distribution. It is the logical end-point of customizability and control, 
+and thus has a rather steep learning curve if one hasn't installed it, used similar minimal distributions  or used it  at least a few months. Thus, it is not well suited for the casual or even moderately enthusiastic user because it expects 
+the user to read documentation and install instructions that  are more detailed than those required by the likes of <a href="https://archlinux.org/">Arch Linux</a>, <a href="https://voidlinux.org/">Void Linux </a>, or similar
+Linux distributions. What Gentoo offers in return is complete control and customizability which helped it stay relevant and used for well over two decades by the time I am writing this article. This will not be 
+an exhaustive "review" of Gentoo, and neither will it go into the history of it. This will only serve as a quick reference for why someone would even bother trying yet another Linux distribution. </p>
+
+<h2> The reasons can be listed as follows : </h2>
+
+
+<ol>
+<li> <b> Gentoo is a very minimal distribution </b></li>
+<p> This puts it in the same category as the aforementioned Arch and Void Linux distributions, among some others. It does not come with almost anything out of the box and expects the user to install only what the user in question actually wants and needs. 
+As such, those without at least some experience with the various programs offered by the Linux ecosystem will have to spend additional time researching packages instead of immediately installing what they need and going forth with the installation. The 
+installation of Gentoo typically is in a couple of hours, so those wanting a quick setup need to look elsewhere, The upside is that the user controls what is installed and what is not. </p>
+
+<li><b> Gentoo is source-based </b> </li>
+<p> This is its main point of distinction in the Linux world. Being source-based means most packages will be compiled rather than just installed and this will make updating the system take far longer than the typical minutes needed by binary 
+distributions. The upside is that the user gets <i>complete</i> control over the software they install using what are called <a href="https://wiki.gentoo.org/wiki/USE_flag">USE flags</a>. </p>
+<p>
+USE flags offer unparalleled freedom and control of the 
+software by enabling and disabling the features offered by the program in question. For example, if the user does not use KDE, they can globally disable USE flags refering to KDE, this making the compiled binary more optimized and less bloated. 
+Another good example is if the user uses a PC at home and does not use Bluetooth. Bluetooth becomes another point of vulnerability without a upside when it's not used, and this backdoor can easily be dealt with by simply globally disabling support 
+for Bluetooth for the whole system (though Gentoo offers per-program control as well).</p>
+<p>
+Another great feature is the clear separation of programs by software licenses, and if somebody would want their system free of proprietary programs, they can 
+easily configure Gentoo within a minute or two by editing the ACCEPT_LICENSE variable in <a href="https://wiki.gentoo.org/wiki//etc/portage/make.conf">make.conf.</a> 
+With a single line being edited, the whole system will re-compile whatever is necessary to obey the user's will. This flexibility, coupled with the 
+minimalism offered out-of-the-box, makes Gentoo an exceptional long-term investement, because the user both gets what he/she wants <i>and</i> since it was the user who configured the system, not a vendor or distribution maintainer, they also 
+learn and remember how the system works by actively configuring it. This makes a sort of feedback loop where the user is both in control, but also rewarded for going deeper into learning how Linux distributions work. Gentoo is in fact, so flexible 
+and so non-willing to force the user into any choices that it's sometimes reffered to as a meta-distribution. This is the natural result of offering a system tailor-made to the user's preference - each Gentoo system will be different and unique, with 
+it's own unique USE flags, window managers or desktop environments, programs installed and so on. </p>
+<p>
+My own reason for sticking with Gentoo despite uninstalling it twice was simple : due to the ability to have my system <i> the way I want it, </i>
+I can easily bypass <a href="https://www.privacyguides.org/news/2026/03/30/systemd-offers-optional-age-verification/">age verification introduced by systemd </a> by simply not having systemd, but rather,
+the default <a href="https://wiki.gentoo.org/wiki/OpenRC">Open RC </a> init system - and if some other mandatory feature I don't like ever gets introduced in any other software, I will be able to build it without those features enabled. This alone 
+makes Gentoo worth it for me .  It's clear seperation of what license groups each software belong to, and its ultimate customizability are the real killer feature. Everything else is just a bonus.</p>
+<p> Gentoo also offers <a href="https://wiki.gentoo.org/wiki/Gentoo_Binary_Host_Quickstart">a first-party binary repository </a> as well as <a href="https://wiki.gentoo.org/wiki/Ebuild_repository"> official and unofficial repositories. </a> </p>
+
+<li> <b> Gentoo offers easy tweaking of the Linux kernel </b>  </li>
+<p> A often heard argument is that Gentoo offers the user to configure the Linux kernel by themselves. While this is true, what people often don't know is that, technically speaking, <i>any</i> distribution offers this. </p> 
+<p> 
+What sets Gentoo apart is 
+the ease of how this is integrated : users can choose a pre-configured binary kernel (ideal if they are new and are already overwhelmed by all the choice and customizability, and it works perfectly for those who wish to not compile everything in a machine 
+which is either low-powered like a notebook or just wish much faster updates), or they have further two options : compile the kernel as it is in it's default state, or manually tweak it. Going the extra mile of having one's own kernel, with only the 
+features the computer actually has and supports, offers huge benefits seen in the next argument. </p>
+
+<li> <b> Gentoo rewards minimalism </b>  </li>
+<p> <i> The less software there is to install, and the more minimal it is, the faster Gentoo will compile. </i> </p>
+<p> This rewards those who wish to optimize and learn how their system works and makes them better users in the long-term. I often find the argument that Gentoo takes too long to install only partially right: yes, it takes much longer 
+than a typical binary distribution, but all the user really needs to do, once everything is set-up properly, is to do a big update during the evening right before bed. Even with my low-performance Ryzen 5 5500U and 16 GB of RAM  on a cheap Acer Aspire laptop,
+it takes one evening to compile <i> everything </i> from the <i>fully bloated </i> Linux kernel to all of my programs (I use sway and mostly terminal applications, and use Brave and Firefox as binary packages). A modern system, especially with 
+a binary kernel or a custom kernel, should take just a few hours. 
+A typical counter-argument is that the performance gains obtained by compiling are trivial - this is true. However, the point of Gentoo was never pure performance, but rather <b> control </b>- performance is just a nice side-benefit, and it's a true testament of the modern compilers 
+that they can so well optimize the binaries without having the user or administrator deal with any aspects of the compilation. </p>
+
+
+<li> <b>The <a href="https://wiki.gentoo.org/wiki/Handbook:AMD64">Handbook</a> is one of the most well-writen works in all of open-source. </a> </b> </li>
+<p> Even just reading the Handbook without any intent to install Gentoo will offer even a total newcomer to Linux an opportunity to grow in their knowledge base from nothing to a reasonable level of profficiency within a hour or two. It is not an overstatement 
+to call it one of the best guides to Linux or even operating systems avalable on the internet: it is reasonably concise, direct and simple to read, and explains concepts just enough so that the user understands the basic premise, but not so much 
+as to overwhelm them. This is in contrast to the old Arch installation guide, which is scarce in explenations, and is thus a popular video topic for Linux YouTubers who have to compensate for it's lack of context offered.</p>
+<li> <b>Gentoo is stable</b> </li>
+
+<p> I have never had a single  bad update or system crash despite my lack of experience with it in the beginning. I gave up on Arch years ago because I had a few bad updates which either made the userland annoying, or even had boot issues. With Gentoo, despite 
+more reasons things could break, I actually <b> never </b> had any issues or worries a update might derail my plans for the day. This alone made it the only rolling release distribution I would use, since Void and Artix didn't offer close enough or fast 
+enough mirrors, respectivley. Then, after some time I returned to Arch from Fedora,  when  the introduction of <i> optional </i> age verification on systemd made my case of sticking to Gentoo closed. Earlier in my experience with Gentoo, my main issue 
+wasn't anything related to Gentoo itself, but rather, the poor thermal design of my cheap Acer laptop, which has high-pitched fan noise which annoys me a to great extent. I have decided the fan noise is worth it if what I run actually respects my wishes,
+and again, this is where nothing even comes close to Gentoo. </p>
+</ol>
+
+
+
+<h2> In conclusion </h2>
+
+<p> Gentoo is not for everyone, but for those who value control, there is nothing like it. <a href="https://www.youtube.com/watch?v=S09ayy9xr_o"> Installing Gentoo is not harder than installing Arch, </a> and control offered far exceeds it. It teaches the user 
+how a (GNU/) Linux system works and this knowledge can be used to a certain extent to other distributions as well. No matter what new mandatory feature the user might not like gets introduced, Gentoo offers alternatives far beyond the reach of any 
+binary distribution. Despite it's time-consuming installation, actually running a Gentoo system daily is not too different from any other distribution once the setup is complete, and the user will benifit in control, optimization, a tailor-made environment.
+Through time, a understanding of how operating systems work on a level far beyond the typical end-user will develop. Just <a href="https://wiki.gentoo.org/wiki/Handbook:AMD64">reading the handbook</a> alone will make a newcomer to Linux <i>far</i> more informed than 
+just sticking to a mainstream distribution. In this sence, even just raeding the Gentoo Wiki or installing Gentoo in a Virtual Machine will be worth it for the experience and knowledge gained, even if the users ultimatley decised the listed benifits 
+aren't worth it. </p>
+
+
+
+
+
+
+
+<p><a href="index.html">Return to Articles page</a></p>
+<p><a href="../index.html">Return to Home page</a></p>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
