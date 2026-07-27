@@ -1,12 +1,12 @@
 /* Everforest Dark Medium Color Palette */
 :root {
-  --bg: #2d353b;
-  --fg: #d3c6aa;
-  --green: #a7c080;
-  --yellow: #dbbc7f;
-  --blue: #7fbbb3;
-  --red: #e67e80;
-  --purple: #d699b6;
+  --bg: #000000;
+  --fg: #ffb000;
+  --green: #b37b00;
+  --yellow: #ffb000;
+  --blue: #804d00;
+  --red: #d93b00;
+  --purple: #a65c00;
 }
 
 body {
@@ -36,7 +36,7 @@ h2 {
 
 em {
   font-size: normal;
-  color: var(--blue);
+  color: var(--purple);
 }
 
 li {
@@ -44,7 +44,7 @@ li {
 }
 /* Optional: styling links to match the palette */
 a {
-  color: var(--blue);
+  color: var(--red);
 }
 
 a:visited {
